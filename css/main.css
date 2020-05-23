@@ -1,0 +1,241 @@
+/***** BODY *****/
+html, body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+#header, #work-header, #about-header {
+    height: 700px;
+    margin: 0;
+}
+#about {
+    height: 650px;
+    margin: 0;
+}
+#portfolio {
+    height: 500px;
+    margin: 0;
+    background-color: #F7F8F8;
+}
+
+#contact {
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+.full-width {
+    width: 1400px;
+    margin: auto;
+}
+.half-width {
+    width: 700px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+.third-width {
+    width: 466px;
+    float: left;
+    text-align: center;
+}
+#tag-line p {
+    text-align: center;
+    font-weight: bolder;
+    padding: 75px;
+    line-height: 60px;
+    font-size: 35px;
+}
+
+/***** HEADER *****/
+header {
+    background-image: url("../img/paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;    
+}
+header h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 60px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #056B97;
+    text-align: center;
+    padding-top: 300px;
+    letter-spacing: 15px;
+    margin: 0;
+    text-shadow: 2px 2px black;
+}
+header p {
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-bottom: 120px;
+    text-shadow: 2px 2px black;
+}
+nav {
+    float: right;
+    padding-top: 20px;
+    padding-right: 50px;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+    padding-left: 50px;
+}
+
+/***** PORTFOLIO *****/ 
+#portfolio img {
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+#portfolio h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+#portfolio p {
+    font-size: 25px;
+    line-height: 45px;
+    color: black;
+    padding: 25px;
+}
+
+/***** ABOUT *****/
+#about .half-width {
+    padding: 50px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 25px;
+    line-height: 60px;
+}
+#about h2 {
+    color: #056B97;
+}
+button {
+    background-color: #056B97;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 8px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+/***** CONTACT *****/
+#contact {
+    background-color:  #056B97;
+}
+#contact h2 {
+    padding-top: 25px;
+    text-transform: uppercase;
+    color: #033A6A;
+    font-size: 35px;
+}
+#contact h3 {
+    text-transform: uppercase;
+    color: black;
+}
+#contact p {
+    text-align: center;
+    padding-top: 0;
+}
+#contact p a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/***** PORTFOLIO PAGE *****/
+#work-header {
+    background-image: url("../img/computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+}
+#projects {
+    height: 650px;
+    margin: 0;
+}
+#projects h3 {
+    text-align: center;
+    font-size: 25px;
+    padding: none;
+}
+#projects h3 span {
+    color: #f16059;
+}
+#projects .tag-line {
+    text-align: center;
+    font-size: 25px;
+    padding: none;
+}
+#projects h2 {
+    padding: 25px 0 50px 0;
+}
+#projects p {
+    padding: 50px;
+}
+
+
+
+/***** ABOUT PAGE *****/
+#about-header {
+    background-image: url("../img/cashlick.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+}
+#about-page {
+    height: auto;
+}
+#about-page h2 {
+    padding: 25px 0 50px 0;
+    color: #056B97;
+    text-shadow: 1px 1px black;
+}
+#about-page p {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+#about-page img {
+    width: 400px;
+    padding-bottom: 25px;
+}
+#about-page .photo-cred {
+    text-align: right;
+    font-size: 18px;
+    padding-right: 25px;
+    margin: 0;
+}
